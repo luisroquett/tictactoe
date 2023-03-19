@@ -26,6 +26,17 @@ The objective of this projector is that the viewer can see the beginning of the 
 
 
 ## Views
+Menu view
+<img src="./img/menuview">
+
+Game view
+
+<img src="./img/mobile.png"> 
+
+Winner view
+<img src="./img/Desktop.png">
+
+
 
 
 Play the demo here <a href="https://luisroquett.github.io/menuve/">Venecos Food menu</a>
