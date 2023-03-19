@@ -14,7 +14,15 @@
     background-image: url(/img/grass.png);
     width: calc( );
     height: 150px;
+    display: flex;
+    justify-content: center;
     
+  }
+
+  img{
+    width:calc(400px);
+    display: flex;
+    justify-content: center;
   }
  .board {
     display: flex;
