@@ -70,4 +70,29 @@
       font-size: 4vw;
       text-align: center;
     }
+    .reset {
+        font-size: 2vw;
+        padding: 5px 10px;
+      }
+    
 }
+/* Estilos para pantallas grandes */
+@media screen and (min-width: 992px) {
+    .board {
+      max-width: 600px;
+      margin: auto;
+    }
+    
+    .square {
+      height: 0;
+      margin: 1px;
+      border: 1px solid black;
+      font-size: 4vw;
+      text-align: center;
+    }
+  
+    .reset {
+      font-size: 2vw;
+      padding: 5px 10px;
+    }
+  }
