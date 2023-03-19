@@ -14,4 +14,19 @@
     
   }
 
+  /* Estilo para pantallas pequeñas */
+  .board{
+    width: 100%;
+    min-width: 300px;
+
+  }
+  .square{
+    width: calc(33.33% - 2px);
+    height: 0;
+    padding-bottom: (33.33% - 2px);
+    margin: 1px;
+    border: 5px solid black;
+    line-height: calc(33.33% - 2px);
+    cursor: pointer;
+  }
   
