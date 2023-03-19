@@ -45,9 +45,29 @@
     cursor: pointer;
   }
   
-  .reset {
-    display: block;
+  .button {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
     margin: auto;
     margin-top: 20px;
     font-size: 3vw;
-    padding: 1px 23px;}
+    padding: 1px 23px;
+    width: 50;
+}
+/* Estilo para pantallas medianas */
+
+@media screen and (min-width: 768px) {
+    .board {
+      max-width: 400px;
+      margin: auto;
+    }
+  
+    .square {
+      height: 0;
+      margin: 1px;
+      border: 4px solid black;
+      font-size: 4vw;
+      text-align: center;
+    }
+}
