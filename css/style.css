@@ -1,98 +1,132 @@
 /* Estilos generales */
- *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
- body {
-    font-family: Arial, sans-serif;
-    background-image: url(/img/earth2.0.png);
-    background-size: contain;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(/img/earth2.0.png);
+  background-size: contain;
+}
+.header {
+  background-image: url(/img/grass.png);
+  width: calc();
+  height: 150px;
+  display: flex;
+  justify-content: center;
     
-  }
- .header{
-    background-image: url(/img/grass.png);
-    width: calc( );
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    
-  }
+}
 
   img{
     width:calc(400px);
+  display: flex;
+  justify-content: center;
+}
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  justify-content: center;
+  background-color: white;
+}
+
+.square {
+  width: calc(33.3% - 2px);
+  height: 0;
+  padding-bottom: calc(33.33% - 2px);
+  margin: 1px;
+  border: 5px solid rgb(0, 0, 0);
+
+  line-height: calc(33.33% - 2px);
+  cursor: pointer;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 3vw;
+  padding: 1px 23px;
+  width: 50;
+}
+
+.data-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+.info {
+  width: 500px;
+  height: 250px;
+  background-color: aquamarine;
+  border-radius: 10px 10px 10px 10px;
+  justify-content: center;
+}
+.players {
+  width: 500px;
+  height: 250px;
+  background-color: rgb(236, 52, 52);
+  border-radius: 10px 10px 10px 10px;
+  justify-content: center;
+}
+.play-container{
     display: flex;
     justify-content: center;
-  }
- .board {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    max-width: 300px;
-    margin: auto;
-    justify-content: center;
-    background-color: white;
-  }
-  
-  .square {
-    width: calc(33.3% - 2px);
-    height: 0;
-    padding-bottom: calc(33.33% - 2px);
-    margin: 1px;
-    border: 5px solid rgb(0, 0, 0);
-  
-    line-height: calc(33.33% - 2px);
+}
+.play {
+    background-color: rgb(30,172,57);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
     cursor: pointer;
-  }
-  
-  .button {
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin: auto;
-    margin-top: 20px;
-    font-size: 3vw;
-    padding: 1px 23px;
-    width: 50;
 }
 /* Estilo para pantallas medianas */
 
 @media screen and (min-width: 768px) {
-    .board {
-      max-width: 400px;
-      margin: auto;
-    }
-  
-    .square {
-      height: 0;
-      margin: 1px;
-      border: 4px solid black;
-      font-size: 4vw;
-      text-align: center;
-    }
-    .reset {
-        font-size: 2vw;
-        padding: 5px 10px;
-      }
-    
+  .board {
+    max-width: 400px;
+    margin: auto;
+  }
+
+  .square {
+    height: 0;
+    margin: 1px;
+    border: 4px solid black;
+    font-size: 4vw;
+    text-align: center;
+  }
+  .reset {
+    font-size: 2vw;
+    padding: 5px 10px;
+  }
 }
 /* Estilos para pantallas grandes */
 @media screen and (min-width: 992px) {
-    .board {
-      max-width: 600px;
-      margin: auto;
-    }
-    
-    .square {
-      height: 0;
-      margin: 1px;
-      border: 1px solid black;
-      font-size: 4vw;
-      text-align: center;
-    }
-  
-    .reset {
-      font-size: 2vw;
-      padding: 5px 10px;
-    }
+  .board {
+    max-width: 600px;
+    margin: auto;
   }
+
+  .square {
+    height: 0;
+    margin: 1px;
+    border: 4px solid black;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .reset {
+    font-size: 2vw;
+    padding: 5px 10px;
+  }
+}
