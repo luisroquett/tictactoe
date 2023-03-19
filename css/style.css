@@ -4,29 +4,42 @@
     margin: 0;
     padding: 0;
  }
- body{
-
- }
+ body {
+    font-family: Arial, sans-serif;
+    background-image: url(/img/earth2.0.png);
+    background-size: contain;
+    
+  }
  .header{
     background-image: url(/img/grass.png);
     width: calc( );
     height: 150px;
     
   }
-
-  /* Estilo para pantallas pequeñas */
-  .board{
+ .board {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    min-width: 300px;
-
+    max-width: 300px;
+    margin: auto;
+    justify-content: center;
+    background-color: white;
   }
-  .square{
-    width: calc(33.33% - 2px);
+  
+  .square {
+    width: calc(33.3% - 2px);
     height: 0;
-    padding-bottom: (33.33% - 2px);
+    padding-bottom: calc(33.33% - 2px);
     margin: 1px;
-    border: 5px solid black;
+    border: 5px solid rgb(0, 0, 0);
+  
     line-height: calc(33.33% - 2px);
     cursor: pointer;
   }
   
+  .reset {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 3vw;
+    padding: 1px 23px;}
