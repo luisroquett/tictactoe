@@ -39,7 +39,7 @@ Winner view
 
 
 
-Play the demo here <a href="https://luisroquett.github.io/menuve/">Venecos Food menu</a>
+Play the demo here <a href="">TIC TAC TOE</a>
 
 
 
