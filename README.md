@@ -27,14 +27,14 @@ The objective of this projector is that the viewer can see the beginning of the 
 
 ## Views
 Menu view
-<img src="./img/menuview">
+<img src="./img/menuview.png">
 
 Game view
 
-<img src="./img/mobile.png"> 
+<img src="./img/gameview.png"> 
 
 Winner view
-<img src="./img/Desktop.png">
+<img src="./img/winnerview.png">
 
 
 

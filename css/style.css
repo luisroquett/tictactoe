@@ -108,6 +108,10 @@ body {
     height: 310px;
     background-color: rgb(30, 172, 57);
 }
+.plays{
+  text-decoration: none;
+  color:black
+}
 
 /* Estilo para pantallas medianas */
 
