@@ -15,11 +15,10 @@ body {
   height: 150px;
   display: flex;
   justify-content: center;
-    
 }
 
-  img{
-    width:calc(400px);
+img {
+  width: calc(400px);
   display: flex;
   justify-content: center;
 }
@@ -54,63 +53,130 @@ body {
   padding: 1px 23px;
   width: 50;
 }
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .data-container {
-    gap: 50px;
+  gap: 50px;
   flex-direction: column;
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 700px;
 }
+#game-view {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#game-view-name1,
+#game-view-name2 {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+  justify-content: center;
+  
+  
+}
+
+
+/* Inicio */
+
 .info {
-  width: 500px;
-  height: 250px;
+  width: 300px;
+  height: 150px;
   background-color: aquamarine;
   border-radius: 10px 10px 10px 10px;
   justify-content: center;
 }
-.players {
-  width: 500px;
-  height: 250px;
-  background-color: rgb(236, 52, 52);
-  border-radius: 10px 10px 10px 10px;
+.players-container {
+  width: 200px;
+  height: 150px;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #70e431;
+
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+input[type="text"] {
+  border: none;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgba(129, 255, 120, 0.8);
+  text-shadow: 1px 1px #000;
+}
+.play-container {
+  display: flex;
   justify-content: center;
 }
-.play-container{
-    display: flex;
-    justify-content: center;
-}
-.play {
-    background-color: rgb(30,172,57);
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-}
-.winner-container{
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: px;
-    height: 710px;
-   
-}
-.winner{
-    display: flex;
-    justify-content: center;
-    width: 510px;
-    height: 310px;
-    background-color: rgb(30, 172, 57);
-}
-.plays{
+#btn-play {
+  background-color: rgb(30, 172, 57);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
-  color:black
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 2;
+}
+
+.players2-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 389px;
+
+  gap: 2px;
+}
+
+/* Winner */
+.winner-container {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: px;
+  height: 710px;
+}
+.winner {
+  display: flex;
+  justify-content: center;
+  width: 510px;
+  height: 310px;
+  background-color: rgb(30, 172, 57);
+}
+.plays {
+  text-decoration: none;
+  color: black;
 }
 
 /* Estilo para pantallas medianas */
@@ -128,11 +194,65 @@ body {
     font-size: 4vw;
     text-align: center;
   }
-  .reset {
-    font-size: 2vw;
-    padding: 5px 10px;
+
+  .info {
+    width: 600px;
+    height: 250px;
+    background-color: aquamarine;
+    border-radius: 10px 10px 10px 10px;
+    justify-content: center;
+  }
+  .players-container {
+    width: 600px;
+    height: 250px;
+    background-image: url("https://i.imgur.com/Ko7JxFc.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h2 {
+    color: #70e431;
+
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-shadow: 2px 2px #000;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  input[type="text"] {
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 1.5rem;
+
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgba(129, 255, 120, 0.8);
+    text-shadow: 1px 1px #000;
+  }
+  .play-container {
+    display: flex;
+    justify-content: center;
+  }
+  .play {
+    background-color: rgb(30, 172, 57);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
   }
 }
+
 /* Estilos para pantallas grandes */
 @media screen and (min-width: 992px) {
   .board {
