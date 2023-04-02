@@ -10,7 +10,7 @@ On the second page the tictactoe game is integrated as such, it is only implemen
 On the third and last page we have the winner of the previous game and the button that takes you to the start again to choose who to play with and start again.
 
 ## Objective 🎯
-The objective of this projector is that the viewer can see the beginning of the project, seeing part by part the pages created for the future implementation of javascript to give full functionality to the game. 
+The objective of this project is that the viewer can see the whole of the project, seeing part by part the pages created for the use of javascript for the functionality of the game.
   
 
 ## Stack
@@ -39,7 +39,7 @@ Winner view
 
 
 
-Play the demo here <a href=" https://luisroquett.github.io/tictactoe/">TIC TAC TOE</a>
+Play the demo here <a href="https://luisroquett.github.io/tictactoe/">TIC TAC TOE</a>
 
 
 
@@ -62,4 +62,3 @@ To the profesor Fidel Gilart
 
 <a href = "luisguerreroroquett@gmail.com"><img src="https://img.shields.io/badge/Gmail-C6362C?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/linkedinUser/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-</p>
