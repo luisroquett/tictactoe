@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,21 +11,11 @@
   <body>
     <div class="header-container">
       <div class="header"><img src="img/tictactoepng.png" alt="" /></div>
-      <div class="view-winner">
-        <div class="container-winner">
-          <h1 class="finish">Finish</h1>
-          <div class="conainer_ganador">
-            <h2 class="winner-title">The Winner is</h2>
-            <h2><span id="ganador">"${player}"</span></h2>
-            
-            <button id="play-again" onclick="playAgain()">PLAY AGAIN </button>
-            
-              
-            </div>
-      </div>
-    </div>
+      <div id="containerTie">
+        <div class="containerMessage"> <h2 id="empate_title">
+            Tie</h2></div>  
+                 <button id="reset_empate" onclick="resetTie()">PLAY AGAIN</button>
+             </div>    
+         </div>
   </body>
 </html>
-
-
-;

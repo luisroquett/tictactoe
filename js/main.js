@@ -5,15 +5,16 @@ const root = document.getElementById("root"); //Capturamos el contenedor General
 const game = {
     player1: {
         name: null,
-        mark: '<img src="mifigurita.png">',
+        mark: '<img class= "mark" src="img/steve.jpg" width="50px">',
     },
     player2: {
         name: null,
-        mark: '<img src="mifigurita2.png">',
+        mark: '<img class= "mark" src="img/creeper.jpg" width="50px">',
     },
     winner: null,
    
 };
+
 
 
 
@@ -27,11 +28,11 @@ const getWelcomeHTML = () => {
 
   <div class="data-container">
     <div class="info">
-      <h2>Welcome to tic tac toe</h2>
+      <h2 class:"welcome-tictoc">Welcome to tic tac toe</h2>
       <p></p>
     </div>
     <div class="players-container">
-      <h2>Choose your name
+      <h2 class= "choose-name">Choose your name
       </h2>
       <div class="player1-container"><input type="text" placeholder="Player-1" id="inicio-1"></div>
       <div class="player2-container"><input type="text" placeholder="Player-2" id="inicio-2"></div>
@@ -52,14 +53,15 @@ const setWelcomeUiEventos = () => {
         const name2Input = document.getElementById("inicio-2").value;
 
         //Validar
-
+        
         //actualizar
         game.player1.name = name1Input;
         game.player2.name = name2Input;
 
-        //renderizar vista game
+        // renderizar vista game
         renderGame();
         setGameUiEventos();
+       
     });
 }
 
@@ -72,5 +74,9 @@ const renderWelcome = () => {
 
 
 //Llamamos a la función que pinta el HTML
+const renderIndex = () => {
+  root.innerHTML = uiIndex();
+};
+
 renderWelcome();
 setWelcomeUiEventos();
