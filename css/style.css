@@ -131,6 +131,7 @@ input[type="text"] {
 .play-container {
   display: flex;
   justify-content: center;
+  
 }
 #btn-play {
   background-color: rgb(30, 172, 57);
@@ -159,6 +160,17 @@ input[type="text"] {
   background-color: yellow;
   gap: 2px;
 }
+.welcome-tictoc{
+  color: #70e431;
+
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-shadow: 2px 2px #000;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
 .choose-name {
   color: #70e431;
 

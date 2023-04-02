@@ -21,30 +21,30 @@ const game = {
 const getWelcomeHTML = () => {
     return `
     <div class="header">
-    <img src="img/tictactoepng.png" alt="">
-  </div>
-  <div class="background"></div>
-  <div class="main-container">
-
-  <div class="data-container">
-    <div class="info">
-      <h2 class:"welcome-tictoc">Welcome to tic tac toe</h2>
-      <p></p>
+      <img src="img/tictactoepng.png" alt="">
     </div>
-    <div class="players-container">
-      <h2 class= "choose-name">Choose your name
-      </h2>
-      <div class="player1-container"><input type="text" placeholder="Player-1" id="inicio-1"></div>
-      <div class="player2-container"><input type="text" placeholder="Player-2" id="inicio-2"></div>
-      
-      <div id="container-btn-play">
+    <div class="background"></div>
+    <div class="main-container">
+  
+    <div class="data-container">
+      <div class="info">
+        <h2 class="welcome-tictoc">Welcome to tic tac toe</h2>
+        
+      </div>
+      <div class="players-container">
+        <h2 class= "choose-name">Choose your name
+        </h2>
+        <div class="player1-container"><input type="text" placeholder="Player-1" id="inicio-1"></div>
+        <div class="player2-container"><input type="text" placeholder="Player-2" id="inicio-2"></div>
+        
+        <div id="container-btn-play">
+      </div>
+    </div>
+    <div class="play-container">
+      <button id="btn-play">PLAY</button>
     </div>
   </div>
-  <div class="play-container">
-    <button id="btn-play">PLAY</button>
-  </div>
-</div>
-</div>`;
+  </div>`;
     
 }
 const setWelcomeUiEventos = () => {
