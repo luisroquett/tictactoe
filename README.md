@@ -21,20 +21,26 @@ The objective of this project is that the viewer can see the whole of the projec
 <a href="https://developer.mozilla.org/es/docs/Web/CSS">
     <img src= "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
 </a>
+<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">
+    <img src= "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</a>
 
  </div>
 
 
 ## Views
 Menu view
-<img src="./img/menuview.png">
+<img src="./img/img1.png">
+<img src="./img/img2.png">
 
 Game view
 
-<img src="./img/gameview.png"> 
+<img src="./img/img3.png"> 
+<img src="./img/img4.png"> 
 
 Winner view
-<img src="./img/winnerview.png">
+<img src="./img/img6.png">
+<img src="./img/img5.png">
 
 
 
